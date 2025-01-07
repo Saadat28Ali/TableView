@@ -47,7 +47,7 @@ function Cell(
     }
 ) {
 
-    const [hoverState, setHoverState] = useState<boolean>(false);
+    const [hoverState, ] = useState<boolean>(false);
 
     // console.log("Cell Drawn");
 

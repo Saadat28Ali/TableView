@@ -2,7 +2,7 @@
 // IMPORTS
 
 // REACT
-import { act, useState } from "react";
+import { useState } from "react";
 
 // ----------------------------------------------------------------------------
 

@@ -53,7 +53,7 @@ function Table(
 
                 <tr>
                     {
-                        tableData[0].map( (cellText: string, colNo: number) => {
+                        tableData[0].map( (_, colNo: number) => {
                             return (
                                 <td
                                 style={{
@@ -86,7 +86,7 @@ function Table(
                     }   
                 </tr>    
 
-                {tableData.map( (row: Array<string>, rowNo: number) => {
+                {tableData.map( (_, rowNo: number) => {
                     return (
                         <tr style={{
                         }}>
